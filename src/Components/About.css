@@ -1,0 +1,9 @@
+.zomatoImage img{
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.zomatoImage{
+    margin-left: 1rem;
+    border-radius: 2rem;
+}

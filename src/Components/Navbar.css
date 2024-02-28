@@ -1,0 +1,122 @@
+
+.bgColor{
+    position: relative;
+}
+.FoodLogo{
+    width: 100%;
+}
+
+.Navbar-right ul li {
+    list-style: none;
+}
+
+.userIcon{
+    font-size: 2rem;
+}
+
+.userDiv:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+.userDiv h4{
+    margin-left: 1rem;
+}
+
+.Navbar-right ul li a{
+    text-decoration: none;
+   font-size: 1.5rem;
+   font-weight: bold;
+   cursor:pointer;
+   color: black;
+}
+
+
+.Navbar-right ul li a:hover{
+    color: red;
+}
+
+
+.loginBtn a{
+    text-decoration: none;
+    color: white;
+} 
+
+.cartCounter{
+    font-size: 2rem;
+    color: red;
+}
+
+
+
+.CartIcon{
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.threeLineIcon{
+    font-size: 3rem;
+    display: none;
+}
+
+
+html,body{
+    overflow-x: hidden;
+}
+
+.MobileNav{
+    width: 16rem;
+    height: 100vh;
+    border: 2px solid black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #F2FDFE;
+    z-index: 2;
+}
+
+.MobileNav ul li {
+    list-style: none;
+}
+
+.MobileNav ul li a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+@media (max-width:992px) {
+    .Navbar-right ul li a{
+        display: none;
+    }
+    
+    .Navbar-right ul button{
+        display: none;
+    }
+
+    .threeLineIcon{
+        display: block;
+        font-size: 3rem;
+        cursor: pointer;
+    }
+
+    .FoodLogo{
+        width: 4rem;
+    }
+}
+
+
+.DeleteIcon{
+    font-size: 3rem;
+    position: absolute;
+    right: 0;
+}
+
+.DeleteIcon:hover{
+    color: red;
+}
+
+.MobileCartIcon{
+    font-size: 3rem;
+}

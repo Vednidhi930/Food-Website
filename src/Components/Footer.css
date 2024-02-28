@@ -1,0 +1,24 @@
+.locationIcon{
+    font-size: 2rem;
+}
+
+.copyright{
+    font-size: 1.5rem;
+}
+
+.companySection ul li a{
+    text-decoration: none;
+
+}
+
+.companySection ul li{
+    list-style: none;
+}
+
+.heading2{
+    margin-left: 1.55rem;
+}
+
+.companySection h2{
+    margin-left: 1.55rem;   
+}
